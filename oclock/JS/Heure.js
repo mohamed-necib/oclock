@@ -79,9 +79,11 @@ export default class Heure {
 
   static getHTML() {
     return `
+    <div class="module-1">
     <div class="horloge">
     <div class="heures">14:50</div>
     <div class="date">Hello World</div>
+    </div>
     </div>
     `;
   }

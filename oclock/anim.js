@@ -37,7 +37,7 @@ let tl = new TimelineMax({ paused: true });
         );
         $(".item-1").hover(
           function () {
-            $(".nav-container").css("background-color", "#005C53");
+            $(".nav-container").css("background", "rgb(182,251,255)");
           },
           function () {
             $(".nav-container").css("background-color", "#dfe8e0");
